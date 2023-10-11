@@ -57,6 +57,8 @@ geniusly	isImmediatelyFollowedByAnOpinion	22
 genuinely	isImmediatelyFollowedByAnOpinion	22
 great		22
 greatest		22
+hard core		22
+hardcore		22
 heavy	isImmediatelyFollowedByAnOpinion	22
 heavy dose of	isImmediatelyFollowedByAnOpinion	22
 high		22
@@ -75,6 +77,7 @@ literaly		22
 loses it after		22
 major		22
 man,		22
+massive		22
 mindblown		22
 monstruously	isImmediatelyFollowedByAnOpinion	22
 monumentally 	isImmediatelyFollowedByAnOpinion	22
@@ -135,6 +138,7 @@ utterly	isImmediatelyFollowedByAnOpinion	22
 v	isImmediatelyFollowedByAnOpinion	22
 v.	isImmediatelyFollowedByAnOpinion	22
 very	isImmediatelyFollowedByAnOpinion	22
+vivid	isImmediatelyFollowedByAnOpinion	22
 what a	isImmediatelyFollowedByAnOpinion	22
 wicked		22
 wonderfully

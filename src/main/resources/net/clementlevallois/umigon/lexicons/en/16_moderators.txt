@@ -1,14 +1,16 @@
 accused of
-according to
 admit
 admits
 allegedly
 although
+asked
 asking
 but
 calls out
 call out
 complains
+confirmed
+confirms
 despite
 embraced
 even if
@@ -23,6 +25,8 @@ i wish
 if
 in spite of
 more than makes up for
+perceived
+perceives
 plead
 point out
 points out
@@ -32,8 +36,10 @@ pretend
 pretends
 react to
 reportedly
+said
 say
 says
+showed that
 though
 to come off as
 tries to

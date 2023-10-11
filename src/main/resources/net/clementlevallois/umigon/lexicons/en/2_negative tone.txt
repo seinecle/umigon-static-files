@@ -100,6 +100,8 @@ bummed	!isImmediatelyPrecededByANegation	12:10		2
 bummer		12		2
 bunch of	!isFollowedBySpecificTerm///flowers	12:10		2
 burned myself	!isImmediatelyPrecededByANegation	12:10		2
+busybody	!isImmediatelyPrecededByANegation	12:10		2
+busybodies	!isImmediatelyPrecededByANegation	12:10		2
 butchered	!isImmediatelyPrecededByANegation	12:10		3
 butthurt		12		3
 cancelled	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
@@ -254,8 +256,8 @@ f**king	isImmediatelyFollowedByAPositiveOpinion	12:10		3
 f*ck		12		3
 fu*k you		12		3
 f*king	isImmediatelyFollowedByAPositiveOpinion	11:12		3
-fail	isPrecededBySubjectiveTerm	12:10		2
-failed	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
+fail	isImmediatelyPrecededBySubjectiveTerm	12:10		2
+failed	!isImmediatelyPrecededByANegation+++isImmediatelyPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 failure	isPrecededByStrongWord	12:10		2
 fake	isPrecededByStrongWord	12:10	x	2
 fainthearted	!isImmediatelyPrecededByANegation	12:10		2
@@ -330,7 +332,7 @@ halfwit		12		3
 half wit		12		3
 hapless		12		3
 harassed		12		3
-hard	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedBySpecificTerm///work|disk|disks|drive|drives|worked|working|skill|skills|part|time|on+++!isImmediatelyPrecededBySpecificTerm///push|work|works|working|worked|work so|working so|worked so|works so|play|party	if (A && B && C) {12} else if (A && B && C == 'false'){11} else {10}	x	1
+hard	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedBySpecificTerm///work|disk|disks|drive|drives|worked|working|skill|skills|part|time|on|core+++!isImmediatelyPrecededBySpecificTerm///push|work|works|working|worked|work so|working so|worked so|works so|play|party	if (A && B && C) {12} else if (A && B && C == 'false'){11} else {10}	x	1
 hard time	isImmediatelyPrecededBySpecificTerm///gives me a|give me a+++isPrecededByStrongWord	if (A || B) {12} else {10}
 hardly	isImmediatelyPrecededBySpecificTerm///it is| it s|it+++isImmediatelyFollowedBySpecificTerm///make|makes	if (A || B) {12} else {10}
 harried		12		2
@@ -356,6 +358,7 @@ hideous	!isImmediatelyPrecededByANegation	12:10		3
 hitch	!isPrecededBySpecificTerm///without a	12:10		2
 hitler	isPrecededBySubjectiveTerm	12:10		3
 hmm		12		1
+hogwash     12:10		1
 hoped	isPrecededBySubjectiveTerm	12:10		1
 hopeless	!isImmediatelyPrecededByANegation	12:10		2
 horrendous		12		3
@@ -445,7 +448,7 @@ loser		12		3
 losers		12		3
 loss	isPrecededBySubjectiveTerm	12:10	x	1
 lousy		12		2
-low	isPrecededByStrongWord	12	x	2
+low	isPrecededByStrongWord+++isPrecededBySubjectiveTerm	if(A && B){12} else {10}	x	2
 ludicrous	!isImmediatelyPrecededByANegation	12:10		1
 mad	!isImmediatelyPrecededByANegation+++!isFollowedBySpecificTerm///max	if(A && B){12} else{10}		2
 maddening	+++!isFollowedByAPositiveOpinion	12:10		3
@@ -530,7 +533,7 @@ not-so-big		12
 not-so-hot		12
 now only if		12		1
 nuts	isPrecededBySpecificTerm///drive|droven|drove|driven|drived|is|are|driving me+++isPrecededByStrongWord	if (A || B) {12} else {10}	x	3
-obsolete		12		1
+obsolete	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){12} else {10}		2
 obtuse		12		2
 offended	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){12} else {10}		2
 offending	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){12} else {10}		2
@@ -574,8 +577,8 @@ pray 4		12		2
 pray for		12		2
 pretentious	!isImmediatelyPrecededByANegation	12:10		2
 pretentiously	!isImmediatelyPrecededByANegation	12:10		2
-problem	!isPrecededBySpecificTerm///solve|solving|solve my|solving my|tackling+++!isImmediatelyFollowedBySpecificTerm///solving|solver+++!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if(A && B && C && D) {12} else {10}		2
-problems	!isPrecededBySpecificTerm///solve|solving|solve my|solving my|tackling+++!isImmediatelyFollowedBySpecificTerm///solving|solver+++!isImmediatelyPrecededByANegation	if(A && B && C){12} else{10}		2
+problem	!isPrecededBySpecificTerm///solve|solving|solve my|solving my|tackling+++!isImmediatelyFollowedBySpecificTerm///solving|solver+++!isImmediatelyPrecededByANegation+++isPrecededByStrongWord+++isPrecededBySubjectiveTerm	if(A && B && C && D && E) {12} else {10}		2
+problems	!isPrecededBySpecificTerm///solve|solving|solve my|solving my|tackling+++!isImmediatelyFollowedBySpecificTerm///solving|solver+++!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B && C && D) {12} else{10}		2
 probs		12		1
 prohibitive		12		2
 puerile		12		1
@@ -583,7 +586,7 @@ puke		12		3
 quit	isAllCaps+++isFirstTermOfText	if (A || B) {12} else {10}	x	3
 rabid		12		3
 rabidly		12		3
-racist!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		3
+racist	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		3
 racists		12		2
 rambling		12		2
 rant	isPrecededByStrongWord	12:10	x	2
@@ -602,7 +605,7 @@ ring hollow		12		2
 rings hollow		12		2
 rip		12	x	2
 risky		12		2
-rubbish		12		3
+rubbish	!isFollowedBySpecificTerm///bin	12:10		3
 rude		12		3
 rudeness		12		2
 rudest		12		3
@@ -634,6 +637,8 @@ screw with	isImmediatelyFollowedBySpecificTerm///me|you|them|us|my|our|your|thei
 screwed	!isImmediatelyPrecededByANegation	12:10		2
 scumbag		12		3
 scumbags 		12		3
+self-righteous 		12		3
+self righteous 		12		3
 send them back		12		2
 seriously	isImmediatelyFollowedBySpecificTerm///?	12:10		2
 sexist	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		3
@@ -688,6 +693,9 @@ sordid	!isImmediatelyPrecededByANegation	11:12	2
 sorrow	isPrecededBySubjectiveTerm	12:10		1
 sorry	!isImmediatelyFollowedBySpecificTerm///to	12:10		1
 sorry to hear		12		1
+sow	isImmediatelyFollowedByNegativePriorAssociation	12:10
+sowed	isImmediatelyFollowedByNegativePriorAssociation	12:10
+sowing	isImmediatelyFollowedByNegativePriorAssociation	12:10
 sowy	!isImmediatelyPrecededByANegation	12:10		2
 spew	!isImmediatelyPrecededByANegation	12:10		2
 spewing		12		3
