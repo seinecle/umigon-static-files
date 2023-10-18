@@ -26,7 +26,7 @@ bang up		11	3
 beautiful	!isImmediatelyPrecededByANegation	11:12	2
 beautifully	!isImmediatelyPrecededByANegation	11:12	2
 beauty	!isImmediatelyPrecededByANegation+++isImmediatelyPrecededBySpecificTerm///a	if (A && B) {11} else if (A == 'false' && B) {12} else {10}
-best	!isImmediatelyPrecededByANegation	11:12	3
+best	!isImmediatelyPrecededByANegation+++!isFollowedBySpecificTerm///man|men|known|behavior|behaviour|guess|efffort+++!isImmediatelyPrecededBySpecificTerm///at|know|knew	if (A && B && C) {11} else {10}	3
 better	!isImmediatelyPrecededByANegation+++!isFollowedBySpecificTerm///not|start+++!isImmediatelyPrecededBySpecificTerm///would|d|wd	if(A && B && C){11} else {10} 	2
 bff		11	3
 big fan	!isImmediatelyPrecededByANegation	11:12	3
@@ -102,7 +102,7 @@ dreamin	!isImmediatelyPrecededByANegation	11:12	3
 dreams	!isImmediatelyPrecededByANegation	11:12	3
 earnest	!isImmediatelyPrecededByANegation	11:12	3
 easily	!isImmediatelyPrecededByANegation	11:12	2
-easy	isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {11} else if (A == 'false') {12} else {10}	2
+easy	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {11} else if (A == 'false') {12} else {10}	2
 eco friendly	!isImmediatelyPrecededByANegation	11:12	2
 ecofriendly	!isImmediatelyPrecededByANegation	11:12	2
 effortlessly	!isImmediatelyPrecededByANegation	11:12	2
@@ -171,7 +171,7 @@ graceful	!isImmediatelyPrecededByANegation	11:12	2
 gracefully	!isImmediatelyPrecededByANegation	11:12	2
 grand	!isImmediatelyFollowedByANegativeOpinion+++isImmediatelyPrecededBySpecificTerm///be	if(A && B){11} else {10}	3
 grateful	!isImmediatelyPrecededByANegation	11:12	3
-great	!isImmediatelyPrecededByANegation+++!isImmediatelyPrecededBySpecificTerm///east|eastern|north|northern|west|western|south|southern	if (A && B) {11} else if (A == 'false' && B) {11} else {10}	3
+great	!isImmediatelyPrecededByANegation+++!isImmediatelyPrecededBySpecificTerm///east|eastern|north|northern|west|western|south|southern|accuracy|certainty|precision	if (A && B) {11} else if (A == 'false' && B) {11} else {10}	3
 greatest	!isImmediatelyFollowedByANegativeOpinion+++!isImmediatelyFollowedByAPositiveOpinion	if(A && B){11} else {10}	3
 greatness	!isImmediatelyPrecededByANegation	11:12	3
 grin	!isImmediatelyPrecededByANegation	11:12	2
@@ -258,6 +258,7 @@ liked	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){
 liking	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2
 liking	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2
 lit	isPrecededBySpecificTerm///it's|its|it is	11:10	3
+lived up to	!isImmediatelyPrecededByANegation	11:12	3
 lively	isPrecededBySpecificTerm///it's|its|it is	11:10	3
 livesaver	!isImmediatelyPrecededByANegation	11:12	3
 lol	!isImmediatelyPrecededByANegation	11:12	3
@@ -297,6 +298,7 @@ more than worth	!isImmediatelyPrecededByANegation	12:10		1
 moved	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
 moving	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
 mouth watering	!isImmediatelyPrecededByANegation	11:12	3
+moving tribute		11		1
 muahah		11	3
 muahahah		11	3
 neat	!isImmediatelyPrecededByANegation	11:12	3
@@ -389,7 +391,7 @@ subtly	!isImmediatelyPrecededByANegation+++isImmediatelyFollowedByPositivePriorA
 succesful	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
 success	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
 successful	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
-successfully	!!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
+successfully	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
 succulent	!isImmediatelyPrecededByANegation	11:12	3
 suitable	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {11} else if (A == 'false') {12} else {10}	2
 sumptuous	!isImmediatelyPrecededByANegation	11:12		1
@@ -430,6 +432,7 @@ uncluttered	!isImmediatelyPrecededByANegation	11:12	3
 uncomprising	!isImmediatelyPrecededByANegation	11:12	3
 underappreciated	!isImmediatelyPrecededByANegation	11:12	3
 unpretentious	!isImmediatelyPrecededByANegation	11:12	3
+unscathed	!isImmediatelyPrecededByANegation	11:12	3
 unswerving		11	3
 unwavering		11	3
 useful	!isImmediatelyPrecededByANegation	11:12	3

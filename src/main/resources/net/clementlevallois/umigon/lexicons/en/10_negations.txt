@@ -32,6 +32,10 @@ dont think
 don t think
 dont believe
 don t believe
+fail to
+fails to
+failed to
+failure to
 falls short on
 falls short of
 falls short in
@@ -60,6 +64,7 @@ neither
 never
 never a
 no
+no longer quite
 no such thing as
 no such thing as a
 no one
@@ -79,6 +84,7 @@ not looking
 not many
 not my
 not our
+not quite
 not so
 not the
 not their
