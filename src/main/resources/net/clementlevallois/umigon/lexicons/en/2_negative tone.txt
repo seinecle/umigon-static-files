@@ -17,6 +17,8 @@ abysmal		12		3
 accused of	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 ache	!isImmediatelyPrecededByANegation	12:10	x	2
 aching	!isImmediatelyPrecededByANegation	12:10		2
+affecting	isImmediatelyFollowedBySpecificTerm///me	12:10		2
+affects	isImmediatelyFollowedBySpecificTerm///me	12:10		2
 afraid	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 again	isPrecededBySpecificTerm///never	12:10	x	3
 again ...		12	x	2
@@ -57,7 +59,7 @@ at odds	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B
 at risk	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		1
 avoid	isAllCaps	12		3
 atrocious		12		3
-awful	!isImmediatelyFollowedBySpecificTerm///lot	12:10		3
+awful	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedBySpecificTerm///lot	if(A && B) {12} else {10}		1
 awkward	!isImmediatelyPrecededByANegation	12:10		1
 bad	!isImmediatelyPrecededByANegation+++!isPrecededBySpecificTerm///want|wanna|would+++!isFollowedBySpecificTerm///ass|asses|asss	if (A && B && C) {12} else if (A && (B == 'false' || C == 'false')) {11} else if (A && B && C) {12} else {10}	x	2
 badly	!isImmediatelyPrecededByANegation	12:10		2
@@ -121,6 +123,7 @@ by the same token		12		3
 cancelled	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 cant bear		12		3
 can t bear		12		3
+care	isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 casualty	isImmediatelyPrecededBySpecificTerm///latest+++!isImmediatelyFollowedBySpecificTerm///figure|figures|number|numbers|total|totals|tally|report|reports	if (A && B) {12} else {10}
 casualties	isImmediatelyPrecededBySpecificTerm///latest+++!isImmediatelyFollowedBySpecificTerm///figure|figures|number|numbers|total|totals|tally|report|reports	if(A && B) {12} else {10}
 caving in to	!isImmediatelyPrecededByANegation	12:11		3
@@ -140,8 +143,9 @@ clunky	!isImmediatelyPrecededByANegation	12:10		2
 clusterfuck		12		3
 clusterfucks		12		3
 cold hearted	!isImmediatelyPrecededByANegation	12:10		2
-concerned	isPrecededByStrongWord+++isPrecededBySubjectiveTerm	if(A || B) {12} else {10}		2
-concerning	isPrecededByStrongWord+++isPrecededBySubjectiveTerm	if(A || B) {12} else {10}		2
+concerned	isPrecededBySubjectiveTerm	12:10		2
+concerning	isPrecededBySubjectiveTerm	12:10		2
+concerns	isImmediatelyFollowedBySpecificTerm///me	12:10		2
 condemned	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		3
 confused	!isImmediatelyPrecededByANegation	12:10		2
 confusing	isPrecededByStrongWord	12:10		2
@@ -281,7 +285,9 @@ excrement		12		2
 excuse for		12	x	1
 execrate		12		3
 exhausting	!isImmediatelyPrecededByANegation	12:10		2
-explained only by		isImmediatelyFollowedByNegativePriorAssociation	12:10		2
+explained only by	isImmediatelyFollowedByNegativePriorAssociation	12:10		2
+extremist	!isImmediatelyPrecededByANegation	12:10		2
+eyesore	isPrecededByStrongWord	12:10		2
 f**king	isImmediatelyFollowedByAPositiveOpinion	12:10		3
 f*ck		12		3
 fu*k you		12		3
@@ -372,7 +378,7 @@ halfwit		12		3
 half wit		12		3
 hapless		12		3
 harassed		12		3
-hard	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedBySpecificTerm///work|disk|disks|drive|drives|worked|working|skill|skills|part|time|on|core+++!isImmediatelyPrecededBySpecificTerm///push|work|works|working|worked|work so|working so|worked so|works so|play|party	if (A && B && C) {12} else if (A && B && C == 'false'){11} else {10}	x	1
+hard	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedBySpecificTerm///work|disk|disks|drive|drives|worked|working|skill|skills|part|time|on|core+++!isImmediatelyPrecededBySpecificTerm///push|work|works|working|worked|work so|working so|worked so|works so|play|party|die	if (A && B && C) {12} else if (A && B && C == 'false'){11} else {10}	x	1
 hard time	isImmediatelyPrecededBySpecificTerm///gives me a|give me a+++isPrecededByStrongWord	if (A || B) {12} else {10}
 hardly	isImmediatelyPrecededBySpecificTerm///it is| it s|it+++isImmediatelyFollowedBySpecificTerm///make|makes	if (A || B) {12} else {10}
 harried		12		2
@@ -464,12 +470,13 @@ jacked up		12		2
 janky		12		2
 jejune		12		2
 jerk		12		3
-joke	isPrecededByStrongWord	12:10	x	3
+joke	isPrecededByStrongWord+++!isImmediatelyPrecededBySpecificTerm///great+++isImmediatelyPrecededBySpecificTerm///is a	if((A || C) && B) {12} else {10}		1
 junk		12		3
 kicked my butt		12		2
 kidding, no?		12		2
 kidding, right?		12		2
 klutz		12		2
+lacking	isPrecededByStrongWord	12:10	x	3
 lame		12	x	3
 laughable		12		3
 laziest	!isImmediatelyPrecededByANegation	12:10		1
@@ -510,6 +517,7 @@ messed up	!isImmediatelyPrecededByANegation	12:10		2
 messy	!isImmediatelyPrecededByANegation	12:10		2
 messing up		12		2
 messing with	!isImmediatelyPrecededByANegation	12:10		2
+micromanaging		12		2
 middle finger		12		3
 migraine	!isImmediatelyPrecededByANegation	12:10		1
 mirage	!isImmediatelyPrecededByANegation+++!isImmediatelyPrecededBySpecificTerm///remains a |remain a|is a |was a	if (A && B) {12} else {10}	x	2
@@ -723,8 +731,8 @@ shapeless		12		3
 shattering	!isFollowedBySpecificTerm///glass|window|windows	12:10
 shattered	!isFollowedBySpecificTerm///glass|window|windows	12:10
 schmuck	!isImmediatelyPrecededByANegation	12		2
-shedded		isImmediatelyFollowedByNegativePriorAssociation	12:10		2
-shedding		isImmediatelyFollowedByNegativePriorAssociation	12:10		2
+shedded	isImmediatelyFollowedByNegativePriorAssociation	12:10		2
+shedding	isImmediatelyFollowedByNegativePriorAssociation	12:10		2
 sheesh		12		2
 shit	!isImmediatelyPrecededByPositive+++!isImmediatelyPrecededByANegation+++!isImmediatelyPrecededBySpecificTerm///real|new	if(A && B && C){12} else if (C == 'false' || A == 'false') {11} else {10}		2
 shite		12		3
@@ -735,6 +743,7 @@ shitter		12		3
 shittest		12		3
 shittiest		12		3
 shitty		12		2
+short	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord+++isImmediatelyFollowedBySpecificTerm///staffed|tempered|minded|sighted	if(A && B && C) {12} else {10}		3
 should have		12		1
 should not		12		1
 shouldn t exist		12		1
@@ -747,6 +756,7 @@ sickos		12		3
 sigh		12		1
 sighs		12		1
 silly		12		2
+silver spoon		12		2
 sinful		12		3
 slave	isPrecededBySubjectiveTerm	12:10		2
 slavery	isPrecededBySubjectiveTerm	12:10		2

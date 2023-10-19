@@ -142,6 +142,7 @@ sustained	isImmediatelyFollowedByAnOpinion	22
 tad	isImmediatelyFollowedByAnOpinion	22
 thoroughly	isImmediatelyFollowedByAnOpinion	22
 too	isImmediatelyFollowedByAnOpinion	22
+total	isImmediatelyFollowedByAnOpinion	22
 tremendous	isImmediatelyFollowedByAnOpinion	22
 tremendously	isImmediatelyFollowedByAnOpinion	22
 true	isImmediatelyFollowedByAnOpinion	22
@@ -161,6 +162,7 @@ very	isImmediatelyFollowedByAnOpinion	22
 virulent	isImmediatelyFollowedByAnOpinion	22
 vivid	isImmediatelyFollowedByAnOpinion	22
 what a	isImmediatelyFollowedByAnOpinion	22
+what an	isImmediatelyFollowedByAnOpinion	22
 wicked		22
 wonderfully
 wtf		22

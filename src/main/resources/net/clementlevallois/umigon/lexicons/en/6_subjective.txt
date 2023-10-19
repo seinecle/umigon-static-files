@@ -1,4 +1,7 @@
+ain't		051
 are		051
+aren't		051
+caus		051
 feels		051
 i		051
 i’d		051
@@ -23,7 +26,11 @@ my		051
 our		051
 should		051
 us		051
+wanna		051
+wannabe		051
 we		051
+were		051
+weren't		051
 we’re		051
 we’ve		051
 we're		051
@@ -34,6 +41,10 @@ i'ma		051
 i ma		051
 seems		051
 was		051
+you'd		051
+you d		051
+you'll		051
+you ll		051
 you'll be		051
 you ll be		051
 you will		051
