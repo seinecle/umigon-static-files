@@ -1,49 +1,101 @@
 accused of
 admit
+admitted
+admitting
 admits
 allegedly
 although
 asked
 asking
+asks
+ask
 calls out
 call out
+calling out
+called out
 complains
+complain
+complaining
+complained
 confirmed
 confirms
+confirm
+confirming
+considers
+considered
+considering
+consider
 despite
 embraced
+embraces
+embrace
+embracing
 even if
 even though
 find
 finds
+finding
+found
 found guilty of
 hails
+hailed
+hail
 hoped
+hopes
+hoping
 i wish
 if
 in spite of
 more than makes up for
 perceived
 perceives
+perceiving
+perceive
 plead
+pleads
+pleading
+pleaded
 point out
 points out
+pointed out
+pointing out
 prefered
 preferred
+preferring
+prefer
 pretend
 pretends
+pretending
+pretended
 react to
+reacts to
+reacted to
+reacting to
 reportedly
 ridiculously
 said
+saying
 say
 says
 showed that
+showing that
+shows that
+show that
+thinks
 think
+thinking
+thought
 though
-to come off as
+come off as
+came off as
+coming off as
+comes off as
 tries to
+tried to
+trying to
 try to
+used to be
+used to have
 wd have
 whether
 why he
@@ -54,3 +106,7 @@ would be
 would become
 would have
 would seem
+writes
+writing
+wrote
+write

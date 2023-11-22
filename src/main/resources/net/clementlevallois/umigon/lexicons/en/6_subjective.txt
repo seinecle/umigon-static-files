@@ -1,51 +1,51 @@
 ain't		051
-are		051
 aren't		051
 caus		051
 feels		051
 i		051
+i am		051
+i d		051
+i ll		051
+i m		051
+i ma		051
+i ve		051
+i'd		051
+i'll		051
+i'm		051
+i'ma		051
+i've		051
+id		051
+im		051
+ive		051
 i’d		051
 i’ll		051
 i’m		051
-id		051
-i'd		051
-i d		051
-i'll		051
-i ll		051
-im		051
-i'm		051
-i m		051
-i've		051
-i ve		051
-is		051
-ive		051
 looks		051
 me		051
 mine		051
 my		051
 our		051
+seems		051
 should		051
 us		051
 wanna		051
 wannabe		051
+was		051
 we		051
+we re		051
+we ve		051
+we were		051
+we're		051
+we've		051
 were		051
 weren't		051
 we’re		051
 we’ve		051
-we're		051
-we re		051
-we've		051
-we ve		051
-i'ma		051
-i ma		051
-seems		051
-was		051
-you'd		051
+you		051
 you d		051
-you'll		051
 you ll		051
-you'll be		051
 you ll be		051
 you will		051
-we were		051
+you'd		051
+you'll		051
+you'll be		051

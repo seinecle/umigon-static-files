@@ -278,7 +278,7 @@ embarrassing	!isImmediatelyPrecededByANegation	12:10		2
 enraged	!isImmediatelyPrecededByANegation	12:10		3
 error	isPrecededByStrongWord	12:10		2
 errors	isPrecededByStrongWord	12:10		2
-even	!isFollowedByAPositiveOpinion+++!isImmediatelyFollowedByPositivePriorAssociation	if (A && B) {12} else {10}		2
+even	!isFollowedByAPositiveOpinion+++!isImmediatelyFollowedByPositivePriorAssociation+++isImmediatelyPrecededByANegation	if (A && B && C) {12} else {10}		2
 ever	isPrecededBySpecificTerm///never	12:10	x	1
 exasperating		12		3
 excrement		12		2
@@ -398,6 +398,7 @@ headachy		12		2
 heart	isPrecededBySpecificTerm///break|breaking|broke|broken+++isFollowedBySpecificTerm///break|breaking|wrenched|wrenching	if(A || B) {12} else {10}	x	1
 heartbroken	!isImmediatelyPrecededByANegation	12:10		3
 heart broken	!isImmediatelyPrecededByANegation	12:10		3
+heart wrenching	!isImmediatelyPrecededByANegation	12:10		3
 heavy	isPrecededByStrongWord	12:10		2
 helpless	!isImmediatelyPrecededByANegation	12:10		2
 helpful	isImmediatelyPrecededByANegation	12:10		2
@@ -405,7 +406,7 @@ hideous	!isImmediatelyPrecededByANegation	12:10		3
 hitch	!isPrecededBySpecificTerm///without a	12:10		2
 hitler	isPrecededBySubjectiveTerm	12:10		3
 hmm		12		1
-hogwash     12:10		1
+hogwash		12:10		1
 hoped	isPrecededBySubjectiveTerm	12:10		1
 hopeless	!isImmediatelyPrecededByANegation	12:10		2
 horrendous		12		3
@@ -549,8 +550,8 @@ muthafucka		12		3
 muthafuckas		12		3
 my butt kicked		12		2
 nasty	!isImmediatelyPrecededByANegation	12:10		2
-nausea		12		3
-nauseated		12		3
+nausea	isPrecededBySubjectiveTerm	12:10		3
+nauseated	isPrecededBySubjectiveTerm	12:10		3
 nauseating		12		3
 need	isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){12} else {10}	x	2
 need hugs	!isImmediatelyPrecededByANegation	12:10		1
@@ -569,7 +570,7 @@ never again		12		2
 never buy		12		2
 nigga	!isFollowedByAPositiveOpinion+++!isPrecededByPositive	if (A && B) {12} else {10}		3
 niggas	!isFollowedByAPositiveOpinion+++!isPrecededByPositive	if (A && B) {12} else{10}		3
-nightmare	isPrecededBySpecificTerm///this is a+++isPrecededByStrongWord	if (A || B) {12} else{10}		3
+nightmare	isPrecededBySpecificTerm///is a|in a|into a+++isPrecededByStrongWord	if (A || B) {12} else{10}		3
 nightmares	isPrecededByStrongWord	12:10		3
 no	isAllCaps	12	x	3
 no apparent reason		12		2
@@ -656,6 +657,7 @@ rabidly		12		3
 racist	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		3
 racists		12		2
 rambling		12		2
+rampant		12		2
 rant	isPrecededByStrongWord	12:10	x	2
 really don’t		12		2
 reckless		12		2
@@ -726,6 +728,7 @@ sh*t	!isImmediatelyPrecededByPositive+++!isImmediatelyPrecededByANegation	if(A &
 shamble	isImmediatelyPrecededBySpecificTerm///in	12:10		2
 shambles	isImmediatelyPrecededBySpecificTerm///in	12:10		2
 shame		12		2
+shameless		12		2
 shameful		12		3
 shapeless		12		3
 shattering	!isFollowedBySpecificTerm///glass|window|windows	12:10
@@ -750,6 +753,7 @@ shouldn t exist		12		1
 shrewd		12		1
 shut up		12		3
 shysty		12		2
+sick	isImmediatelyFollowedByAnOpinion+++isImmediatelyPrecededBySpecificTerm///this is	if(A || B) {22} else {10}
 sick of	!isImmediatelyPrecededByANegation	12:10		2
 sickening		12		3
 sickos		12		3
@@ -769,6 +773,7 @@ smack down		12		2
 smfh		12		2
 smh		12		2
 snarl		12		1
+so	isImmediatelyFollowedByPositivePriorAssociation+++isImmediatelyFollowedByNegativePriorAssociation	if (A) {11} else if (B) {12} else {10}	3
 so-called		12:10		1
 so called		12:10		1
 so behind	!isImmediatelyPrecededByANegation	12:10		1
@@ -894,8 +899,6 @@ unpalatable	!isImmediatelyPrecededByANegation	12:10		2
 unsatisfying	!isImmediatelyPrecededByANegation	12:10		1
 unsolved		12		1
 unspeakable		12		3
-unsuccessful		12		1
-unsuccessfully		12		1
 unintelligent		12		2
 unwanted		12		2
 unwillingness	isPrecededByStrongWord	12:10		2
@@ -921,6 +924,7 @@ way too	!isFollowedByAPositiveOpinion	12:10		2
 we lost		12		2
 weakest	isImmediatelyPrecededBySpecificTerm///is the|are the	12:10
 weird	!isImmediatelyPrecededByANegation	12:10	x	2
+what a	isImmediatelyFollowedByPositivePriorAssociation+++isImmediatelyFollowedByNegativePriorAssociation	if (A) {11} else if (B) {12} else {10}	3
 whats wrong		12		2
 what s wrong		12		2
 why on earth		12		3

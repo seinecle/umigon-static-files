@@ -17,6 +17,7 @@ biggest		22
 bloody	isImmediatelyFollowedByAnOpinion	22
 brazen		22
 bonkers		22
+chaotic	isImmediatelyFollowedByAnOpinion	22
 charmingly	isImmediatelyFollowedByAnOpinion	22
 complete	isImmediatelyFollowedByAnOpinion	22
 completely	isImmediatelyFollowedByAnOpinion	22
@@ -29,10 +30,12 @@ deadpan		22
 deep		22
 desperate		22
 distinct		22
+distinctively		22
 emphatically		22
 epic	isImmediatelyFollowedByAnOpinion	22
 especially	isImmediatelyFollowedByAnOpinion	22
 essentially	isImmediatelyFollowedByAnOpinion	22
+even	isImmediatelyFollowedByAnOpinion	22
 even more	isImmediatelyFollowedByAnOpinion	22
 ever	isPrecededByAnOpinion	22
 exactly	isImmediatelyFollowedByAnOpinion	22
@@ -86,7 +89,6 @@ literally		22
 literaly		22
 loses it after		22
 major		22
-man,		22
 many		22
 massive		22
 mighty		22
@@ -121,7 +123,6 @@ sheer	isImmediatelyFollowedByAnOpinion	22
 shocking		22
 shockingly	isImmediatelyFollowedByAnOpinion	22
 sick	isImmediatelyFollowedByAnOpinion	22
-sick	isImmediatelyFollowedByAnOpinion+++isImmediatelyPrecededBySpecificTerm///this is	if(A || B) {22} else {10}
 simply	isImmediatelyFollowedByAnOpinion	22
 slightly	isImmediatelyFollowedByAnOpinion	22
 smashing	isImmediatelyFollowedByAnOpinion	22
@@ -157,7 +158,6 @@ ultra	isImmediatelyFollowedByAnOpinion	22
 utter	isImmediatelyFollowedByAnOpinion	22
 utterly	isImmediatelyFollowedByAnOpinion	22
 v	isImmediatelyFollowedByAnOpinion	22
-v.	isImmediatelyFollowedByAnOpinion	22
 very	isImmediatelyFollowedByAnOpinion	22
 virulent	isImmediatelyFollowedByAnOpinion	22
 vivid	isImmediatelyFollowedByAnOpinion	22

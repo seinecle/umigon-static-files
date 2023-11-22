@@ -1,4 +1,5 @@
 aint
+ain't
 ain t
 almost
 although
@@ -7,31 +8,42 @@ barely
 cant
 cannot
 can t
+can't
 cant be
 can t be
+can't be
 cant have
 can t have
+can't have
 contrary to
 could have been
 could have been more
 couldnt
 couldn t
+couldn't
 despite
 didnt
 didn t
+didn't
 disappointingly
 doesnt
 doesn t
+doesn't
 dont
 don t
+don't
 don t be
+don't be
 dont be
 dont feel
 don t feel
+don't feel
 dont think
 don t think
+don't think
 dont believe
 don t believe
+don't believe
 fail to
 fails to
 failed to
@@ -43,13 +55,17 @@ far from
 far from being
 havent
 haven t
+haven't
 havent had
 haven t had
+haven't had
 inspite
 isnt
 isn t
+isn't
 isnt as
 isn t as
+isn't as
 lack of
 lack any
 lacks of
@@ -96,6 +112,7 @@ reduce
 should be
 shouldnt be too
 shouldn t be too
+shouldn't be too
 stop
 stopped
 too bad that
@@ -108,12 +125,17 @@ with out
 without
 wont
 won t
+won't
 wont be
 won t be
+won't be
 wont have
 won t have
+won't have
 would have been
 wouldnt
 wouldn t
+wouldn't
 wudnt
 wudn t
+wudn't
