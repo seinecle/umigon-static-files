@@ -137,7 +137,7 @@ classless	!isImmediatelyPrecededByANegation	12:10		3
 cliche	!isImmediatelyPrecededByANegation+++isPrecededByStrongWord	if (A && B) {12} else {10}		2
 clown	!isImmediatelyPrecededByANegation	12:10		3
 clueless	!isImmediatelyPrecededByANegation	12:10		3
-cluelessness		12:10		3
+cluelessness		12		3
 clumsy	!isImmediatelyPrecededByANegation	12:10		3
 clunky	!isImmediatelyPrecededByANegation	12:10		2
 clusterfuck		12		3
@@ -340,8 +340,8 @@ f*cked	!isImmediatelyPrecededByANegation	12:10		3
 f*cker		12		3
 f*ckers		12		3
 f*cks		12	x	3
-fudged	isImmediatelyFollowedBySpecificTerm///her|his|their		12:10		3
-fudges	isImmediatelyFollowedBySpecificTerm///her|his|their		12:10		3
+fudged	isImmediatelyFollowedBySpecificTerm///her|his|their	12:10		3
+fudges	isImmediatelyFollowedBySpecificTerm///her|his|their	12:10		3
 fuming		12		3
 furious		12		3
 gabbiest		12	x	2
@@ -406,7 +406,7 @@ hideous	!isImmediatelyPrecededByANegation	12:10		3
 hitch	!isPrecededBySpecificTerm///without a	12:10		2
 hitler	isPrecededBySubjectiveTerm	12:10		3
 hmm		12		1
-hogwash		12:10		1
+hogwash		12		1
 hoped	isPrecededBySubjectiveTerm	12:10		1
 hopeless	!isImmediatelyPrecededByANegation	12:10		2
 horrendous		12		3
@@ -456,7 +456,7 @@ inhumane		12		3
 insensitive	!isImmediatelyPrecededByANegation	12:10		3
 insidious		12		3
 insipid	!isImmediatelyPrecededByANegation	12:10		1
-insubstantial		12:10		3
+insubstantial		12		3
 insult	isPrecededByStrongWord	12:10	x	2
 interminable		12		3
 intolerable		12		3
@@ -610,7 +610,7 @@ outraged	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A &&
 outragious	!isImmediatelyPrecededByANegation	12:10		3
 overrated	!isImmediatelyPrecededByANegation	12:10		2
 overwrought	!isImmediatelyPrecededByANegation	12:10		2
-owe	!isImmediatelyFollowedBySpecificTerm///you	12:10	x	1
+owe	!isImmediatelyFollowedBySpecificTerm///you|up to+++!isFollowedBySpecificTerm///fiduciary|tax|debt|debts	if (A && B) {12} else {10}		3
 pain	isPrecededBySubjectiveTerm	12:10	x	2
 painful	!isImmediatelyPrecededByANegation	12:10		2
 painfully	!isImmediatelyPrecededByANegation	12:10		2
@@ -774,8 +774,8 @@ smfh		12		2
 smh		12		2
 snarl		12		1
 so	isImmediatelyFollowedByPositivePriorAssociation+++isImmediatelyFollowedByNegativePriorAssociation	if (A) {11} else if (B) {12} else {10}	3
-so-called		12:10		1
-so called		12:10		1
+so-called		12		1
+so called		12		1
 so behind	!isImmediatelyPrecededByANegation	12:10		1
 so much for	isFirstTermOfText	12:10		1
 soapy		12
@@ -891,7 +891,7 @@ unfortunetly	!isImmediatelyPrecededByANegation	12:10		1
 ugliest	!isImmediatelyPrecededByANegation	12:10		1
 ungodly	!isImmediatelyPrecededByANegation	12:10		3
 unhappy	!isImmediatelyPrecededByANegation	12:10		2
-unhealthy 	!isImmediatelyPrecededByANegation	12:10		2
+unhealthy 	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		2
 unimaginative 	!isImmediatelyPrecededByANegation	12:10		2
 unimpressed 	!isImmediatelyPrecededByANegation	12:10		2
 unloved	!isImmediatelyPrecededByANegation	12:10		2
@@ -946,7 +946,7 @@ worried	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && 
 worry	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		1
 worrying	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		1
 worse	!isImmediatelyPrecededByANegation	12:10		2
-worst	!isImmediatelyPrecededByANegation	12:10		2
+worst	!isImmediatelyPrecededByANegation+++!isImmediatelyPrecededBySpecificTerm///second|third	if (A && B) {12} else {10}		1
 worth	isImmediatelyPrecededByANegation	12:10		2
 would want	isImmediatelyPrecededByANegation	12:10		2
 wrenching		12		3

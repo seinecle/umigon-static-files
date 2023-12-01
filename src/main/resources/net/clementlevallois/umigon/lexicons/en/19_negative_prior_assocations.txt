@@ -5521,6 +5521,10 @@ spectral
 spectrals
 speculation
 speculations
+spend
+spends
+spending
+spendings
 spent
 spents
 spine

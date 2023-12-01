@@ -4,7 +4,7 @@ admire	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B
 admirable	!isImmediatelyPrecededByANegation	11:12	2
 admirably	!isImmediatelyPrecededByANegation	11:12	2
 adorable	!isImmediatelyPrecededByANegation	11:12	2
-affordable	!isImmediatelyPrecededByANegation	11:12	2
+affordable	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {11} else if (A == 'false') {12} else {10}	3
 agreeably	!isImmediatelyPrecededByANegation	11:12	2
 all in one		11	2
 always a pleasure	!isImmediatelyPrecededByANegation	11:12	3
@@ -26,7 +26,7 @@ bang up		11	3
 beautiful	!isImmediatelyPrecededByANegation	11:12	2
 beautifully	!isImmediatelyPrecededByANegation	11:12	2
 beauty	!isImmediatelyPrecededByANegation+++isImmediatelyPrecededBySpecificTerm///a	if (A && B) {11} else if (A == 'false' && B) {12} else {10}
-best	!isImmediatelyPrecededByANegation+++!isFollowedBySpecificTerm///man|men|known|behavior|behaviour|guess|efffort|seller|selling+++!isImmediatelyPrecededBySpecificTerm///at|know|knew+++!isFirstLetterCapitalized	if (A && B && C && D) {11} else {10}	3
+best	!isImmediatelyPrecededByANegation+++!isFollowedBySpecificTerm///man|men|known|behavior|behaviour|guess|efffort|seller|selling+++!isImmediatelyPrecededBySpecificTerm///at|know|knew|one|two|three|four|five|ten|twenty|fifty|hundred|1|2|3|4|5|10|20|50|100+++!isFirstLetterCapitalized	if (A && B && C && D) {11} else {10}	3
 better	!isImmediatelyPrecededByANegation+++!isFollowedBySpecificTerm///not||known|start+++!isImmediatelyPrecededBySpecificTerm///would|d|wd	if(A && B && C){11} else {10} 	2
 bff		11	3
 big fan	!isImmediatelyPrecededByANegation	11:12	3
@@ -257,7 +257,7 @@ lets u 	!isImmediatelyPrecededByANegation	11:12	2
 let s you	!isImmediatelyPrecededByANegation	11:12	2
 life saver	!isImmediatelyPrecededByANegation	11:12	3
 lightning fast	!isImmediatelyPrecededByANegation	11:12	3
-like	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm+++!isImmediatelyPrecededBySpecificTerm///feel|feels|seem|seems|behaves|behave|acts|act|sound|sounds|look|looks	if(A && B && C){11} else if (A == 'false' && B){12} else {10}	x	2
+like	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm+++!isImmediatelyPrecededBySpecificTerm///feel|feels|seem|seems|behaves|behave|acts|act|sound|sounds|look|looks|someone|something	if(A && B && C){11} else if (A == 'false' && B){12} else {10}	x	2
 liked	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2
 liking	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2
 liking	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2
@@ -405,7 +405,7 @@ suped up	!isImmediatelyPrecededByANegation	11:12	3
 super	!isImmediatelyFollowedByAnOpinion+++!isImmediatelyFollowedBySpecificTerm///bowl	if (A && B) {11} else if (A == 'false' && B == 'false') {12} else {10}	2
 superb	!isImmediatelyPrecededByANegation	11:12	3
 superbly	!isImmediatelyFollowedByANegativeOpinion	11:10	3
-sweet	!isImmediatelyPrecededByANegation+++!isPrecededBySpecificTerm///bitter++!isFollowedBySpecificTerm///taste|notes	if (A && B && C) {11} else if (A && B) {12} else {10}	2
+sweet	!isImmediatelyPrecededByANegation+++!isPrecededBySpecificTerm///bitter+++!isFollowedBySpecificTerm///taste|notes	if (A && B && C) {11} else if (A && B) {12} else {10}	2
 swell	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedBySpecificTerm///up+++!isPrecededBySpecificTerm///head|lips|lip|chest|arm|foot|feet|hand|hands|finger|fingers|thumb|thumbs|toe|toes|neck|knee|belly|thigh|leg|legs|chick|chicks|ear|ears|tongue|elbow	if (A && B && C) {11} else {10}	3
 swimming in	isImmediatelyFollowedByPositivePriorAssociation	11:10
 talented	!isImmediatelyPrecededByANegation	11:12	3
