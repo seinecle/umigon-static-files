@@ -432,7 +432,7 @@ top of	!isImmediatelyPrecededByANegation	11:12	3
 tops	!isImmediatelyPrecededByANegation	11:12	3
 touching	isPrecededByStrongWord	11:10	3
 thought provoking 	!isImmediatelyPrecededByANegation	11:10	3
-tremendous	isPrecededBySpecificTerm///would be+++ isImmediatelyFollowedBySpecificTerm///job|effort|growth|efforts|hit|hits|benefit|benefits|piece|potential|talent	if (A || B) {11} else {0}	3
+tremendous	isPrecededBySpecificTerm///would be+++ isImmediatelyFollowedBySpecificTerm///job|effort|growth|efforts|hit|hits|benefit|benefits|piece|potential|talent	if (A || B) {11} else {10}	3
 uncluttered	!isImmediatelyPrecededByANegation	11:12	3
 uncomprising	!isImmediatelyPrecededByANegation	11:12	3
 underappreciated	!isImmediatelyPrecededByANegation	11:12	3

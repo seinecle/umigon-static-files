@@ -109,6 +109,7 @@ pretty		22
 pure		22
 quite	isImmediatelyFollowedByAnOpinion	22
 rare feat		22
+real	isImmediatelyFollowedByAnOpinion	22
 really	isImmediatelyFollowedByAnOpinion	22
 remarkable	isImmediatelyFollowedByAnOpinion	22
 remarkably	isImmediatelyFollowedByAnOpinion	22

@@ -61,7 +61,7 @@ avoid	isAllCaps	12		3
 atrocious		12		3
 awful	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedBySpecificTerm///lot	if(A && B) {12} else {10}		1
 awkward	!isImmediatelyPrecededByANegation	12:10		1
-bad	!isImmediatelyPrecededByANegation+++!isPrecededBySpecificTerm///want|wanna|would+++!isFollowedBySpecificTerm///ass|asses|asss	if (A && B && C) {12} else if (A && (B == 'false' || C == 'false')) {11} else if (A && B && C) {12} else {10}	x	2
+bad	!isImmediatelyPrecededByANegation+++!isPrecededBySpecificTerm///want|wanted|wanna|love|loves|loved|miss|missed|would+++!isFollowedBySpecificTerm///ass|asses|asss	if (A && B && C) {12} else if (A && (B == 'false' || C == 'false')) {11} else if (A && B && C) {12} else {10}	x	2
 badly	!isImmediatelyPrecededByANegation	12:10		2
 baffles		12		3
 baffled		12		3
@@ -491,7 +491,7 @@ lobbies		12		1
 lobby		12		1
 lobbyist		12		1
 lonely	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		1
-loose	!isImmediatelyPrecededByANegation+++!isPrecededBySpecificTerm///on the	if(A && B){12} else if (A == 'false' && B){99} else {11}	x	2
+loose	!isImmediatelyPrecededByANegation+++!isPrecededBySpecificTerm///on the	if(A && B){12} else if (A == 'false' && B){10} else {11}	x	2
 looser		12		3
 loosers		12		3
 loser		12		3
@@ -797,6 +797,7 @@ spineless		12		3
 spurious	!isImmediatelyFollowedBySpecificTerm///correlation|effect	12:10		3
 starving	!isImmediatelyFollowedBySpecificTerm///for	12:10		3
 stern	!isImmediatelyPrecededBySpecificTerm///howard	12:10		2
+stfu		12
 stifle		12		2
 stifles		12		2
 stifled		12		2
