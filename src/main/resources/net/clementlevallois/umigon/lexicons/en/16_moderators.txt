@@ -67,6 +67,9 @@ pretend
 pretends
 pretending
 pretended
+prevent
+prevents
+prevented
 react to
 reacts to
 reacted to

@@ -302,7 +302,8 @@ fair	isImmediatelyPrecededByANegation	12:10		2
 fake	isPrecededByStrongWord	12:10	x	2
 fainthearted	!isImmediatelyPrecededByANegation	12:10		2
 famished		12		3
-far fetched	isPrecededByStrongWord	12		2
+far fetched	!isImmediatelyPrecededByANegation	12:10		2
+far-fetched	!isImmediatelyPrecededByANegation	12:10		2
 faulty	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 fed up		12		3
 feeble		12		2
