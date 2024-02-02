@@ -127,9 +127,9 @@ epic	!isImmediatelyPrecededByANegation	11:12	3
 everybody clap		11	3
 evocative	!isImmediatelyPrecededByANegation	11:12	3
 excellent	!isImmediatelyPrecededByANegation	11:12	3
+excellently	!isImmediatelyPrecededByANegation	11:12	3
 exceptional	!isImmediatelyPrecededByANegation+++!isImmediatelyFollowedByNegativePriorAssociation	if (A && B) {11} else if (A == 'false') {12} else {10}	3
 appealing	!isImmediatelyPrecededByANegation+++isImmediatelyFollowedByPositivePriorAssociation	if (A && B) {11} else if (A == 'false') {12} else {10}	2
-
 excited	!isImmediatelyPrecededByANegation	11:12	3
 exciting	!isImmediatelyPrecededByANegation	11:12	3
 exhilarating	!isImmediatelyPrecededByANegation	11:12	3

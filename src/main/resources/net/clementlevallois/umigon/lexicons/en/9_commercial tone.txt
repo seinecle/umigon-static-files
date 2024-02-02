@@ -1,20 +1,43 @@
 2win		611
-allows		611
-announcements		611
-available at		611
-book now	isFirstLetterCapitalized	611
-buy	isFirstTermOfText+++isFollowedBySpecificTerm///now	if(A && B){611}
+apply now	isStartOfSegment	611:10
+are you prepared	isStartOfSegment	611:10
+beat	isStartOfSegment	611:10
+become	isStartOfSegment	611:10
+behind the scenes		61
+behindthescenes		61
+boast		611
+boasts		611
+book now	isFirstLetterCapitalized	611:10
+book your		611
+boost	isStartOfSegment	611:10
+browse	isStartOfSegment	611:10
+buy	isStartOfSegment	611:10
+buy now		611
+celebrate	isStartOfSegment	611:10
+celebrating	isStartOfSegment	611:10
+check out our		611
+claim	isStartOfSegment	611:10
 complimentary		611
-could be the	isPrecededBySpecificTerm///why	611
-deal	isFirstLetterCapitalized	611
+contest	isPrecededBySpecificTerm///entered|enter|join|jump	61:10
+could be the	isPrecededBySpecificTerm///why	611:10
+deal	isFirstLetterCapitalized	611:10
 discounts		611
-donate		611
-donates		611
-enable		61
+discover	isStartOfSegment	611:10
+dive	isStartOfSegment	611:10
+don't miss	isStartOfSegment	611:10
+don't miss out		611
+earn more rewards		611
+embrace	isStartOfSegment	611:10
 enter to win		611
+explore our	isStartOfSegment	611:10
+find out	isStartOfSegment	611:10
+follow the link		611:10
+for a chance to		611
 for free		611
-free	isAllCaps	611
+free	isAllCaps	611:10
 get a free		611
+get it	isStartOfSegment	611:10
+get ready for		61
 get smart		61
 gift ideas		611
 gifts ideas		611
@@ -22,46 +45,60 @@ giveaway		611
 giveaways		611
 giving away		611
 goodies		611
-helped		611
+have you checked		611
 hot deal		611
 hottest deal		611
 hottest deals		611
-inside	isFirstLetterCapitalized	61
-introduce		611
-introducing the		611
+if you are looking		611
+if you're looking		611
+inside	isFirstLetterCapitalized	61:10
+introducing	isStartOfSegment	611:10
 it s free		611
 its free		611
-just released		611
 kickoff		611
 last chance to		611
-launch		611
-make sure	isFirstLetterCapitalized	611
+learn more	isStartOfSegment	611:10
+looking for	isStartOfSegment	611:10
 make it happen with		611
+make sure	isFirstLetterCapitalized	611:10
 meet the		611
+nab		611
+off	isImmediatelyPrecededBySpecificTerm///10%|20%|30%|40%|50%|60%|70%|80%|90%|100%	611:10
 offer ends		611
 offering		611
 offerings		611
-official release	isFirstLetterCapitalized	61
-on sale	!isImmediatelyPrecededByANegation	611
-outcome	isImmediatelyPrecededByPositive	611
-outcomes	isImmediatelyPrecededByPositive	611
-powered by	isFirstLetterCapitalized	611
+official release	isFirstLetterCapitalized	61:10
+on sale	!isImmediatelyPrecededByANegation	611:10
+our guide		611
+our latest guide		611
+our recommendations		611
+powered by	isFirstLetterCapitalized	611:10
+read more	isImmediatelyFollowedBySpecificTerm///on|below|in	61:10
+ready	isStartOfSegment+++isImmediatelyFollowedBySpecificTerm///to|for	if (A && B) {611} else {10}
 rebate		611
 reinvents		611
-sales	isAllCaps	611
+sale	isAllCaps	611:10
+sales	isAllCaps	611:10
 save up to		611
+set to introduce		611
+simplify your	isStartOfSegment	611:10
+simplify your	isStartOfSegment	611:10
 solutions		611
+sound exciting	isStartOfSegment	611:10
 specials		611
 stoked to		611
+suits your needs		611
 sweepstakes		611
+take a look at	isStartOfSegment	611:10
+tell us	isStartOfSegment	611:10
+this is the right time	isStartOfSegment	611:10
+tipples		611
+treat yourself		611
+try	isImmediatelyFollowedBySpecificTerm///our|it	61:10
 unveiled		611
 unveils		611
-vote	isFirstLetterCapitalized	611
-watch	isFirstLetterCapitalized	611
-welcome to	isFirstLetterCapitalized	611
-win	!isImmediatelyPrecededByANegation	611
-nab		611
-tipples		611
-contest	isPrecededBySpecificTerm///entered|enter|join|jump	61
-behindthescenes		61
-behind the scenes		61
+vote	isFirstLetterCapitalized	611:10
+watch	isFirstLetterCapitalized	611:10
+welcome to	isFirstLetterCapitalized	611:10
+win	isStartOfSegment	611:10
+you've been waiting for		611

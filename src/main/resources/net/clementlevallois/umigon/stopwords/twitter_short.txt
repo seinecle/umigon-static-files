@@ -22,6 +22,8 @@ rt
 subscribe
 subscribers
 tech
+thread
+threads
 tweet
 tweets
 twibe

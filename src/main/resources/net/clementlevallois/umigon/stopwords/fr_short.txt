@@ -33,6 +33,8 @@ aller
 alle
 allée
 allez
+ailleur
+ailleurs
 allô
 allaient
 allo
@@ -63,6 +65,7 @@ aurait
 auront
 aussi
 autre
+autrement
 autres
 aux
 auxquelles
@@ -325,6 +328,7 @@ jours
 jusqu
 jusque
 juste
+justement
 k
 kilo
 là
@@ -334,6 +338,7 @@ l
 la
 laisser
 laquelle
+largement
 las
 le
 lequel
