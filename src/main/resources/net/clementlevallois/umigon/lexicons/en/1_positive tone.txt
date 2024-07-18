@@ -257,7 +257,7 @@ lets u 	!isImmediatelyPrecededByANegation	11:12	2
 let s you	!isImmediatelyPrecededByANegation	11:12	2
 life saver	!isImmediatelyPrecededByANegation	11:12	3
 lightning fast	!isImmediatelyPrecededByANegation	11:12	3
-like	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm+++!isImmediatelyPrecededBySpecificTerm///feel|feels|seem|seems|behaves|behave|acts|act|sound|sounds|look|looks|someone|something	if(A && B && C){11} else if (A == 'false' && B){12} else {10}	x	2
+like	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm+++!isImmediatelyPrecededBySpecificTerm///feel|feels|seem|seems|behaves|behave|acts|act|sound|sounds|look|looks|someone|something|guess|mean|suppose|maybe|possibly	if(A && B && C){11} else if (A == 'false' && B){12} else {10}	x	2
 liked	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2
 liking	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2
 liking	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){11} else if (A == 'false' && B){12} else {10}	x	2

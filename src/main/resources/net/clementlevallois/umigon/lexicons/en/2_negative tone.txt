@@ -150,6 +150,7 @@ condemned	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A &&
 confused	!isImmediatelyPrecededByANegation	12:10		2
 confusing	isPrecededByStrongWord	12:10		2
 convincing	isImmediatelyPrecededByANegation	12:10		2
+cost	isImmediatelyPrecededByStrongWord	12:10		2
 coward	!isImmediatelyPrecededByANegation	12:10		3
 cowardly	!isImmediatelyPrecededByANegation	12:10		3
 crap	!isImmediatelyPrecededByANegation	12:10	x	3
@@ -261,6 +262,7 @@ doucheclown		12		3
 doucheclowns		12		3
 downbeat	isPrecededBySubjectiveTerm	12:10		1
 downhearted		12		1
+drab		12		3
 drained	!isInASentenceLikeFragmentWithOneOfTheseSpecificTerms///water|pipe|flood+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 dread	isPrecededByStrongWord+++isPrecededBySubjectiveTerm	if (A || B) {12} else {10}	x	2
 dreaded		12		2
@@ -423,12 +425,12 @@ humiliating		12		2
 hurt	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B) {12} else {10}		2
 hurts	!isImmediatelyPrecededByANegation	12:10		2
 hysteria	isPrecededBySpecificTerm///anti+++isPrecededByStrongWord	if(A || B) {12} else {10}		2
-i cant		12		2
-i can t		12		2
+i cant	isImmediatelyFollowedBySpecificTerm///believe+++isImmediatelyFollowedBySpecificTerm///wait	if(A) {10} else if (B) {11} else {12}		2
+i can't	isImmediatelyFollowedBySpecificTerm///believe+++isImmediatelyFollowedBySpecificTerm///wait	if(A) {10} else if (B) {11} else {12}		2
 i didnt get		12		1
-i didn t get		12		1
+i didn't get		12		1
 i dont wanna		12		1
-i don t wanna		12		1
+i don't wanna		12		1
 i have no		12		1
 i have to		12		1
 i miss my		12		2
@@ -594,6 +596,7 @@ not-so-big		12
 not-so-hot		12
 now only if		12		1
 nuts	isPrecededBySpecificTerm///drive|droven|drove|driven|drived|is|are|driving me+++isPrecededByStrongWord	if (A || B) {12} else {10}	x	3
+obnoxious		12		2
 obsolete	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){12} else {10}		2
 obtuse		12		2
 offended	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A && B){12} else {10}		2
@@ -918,7 +921,10 @@ vomit		12		3
 wacky		12
 want to go	!isPrecededBySpecificTerm///do you	12:10		1
 warmed over	!isPrecededBySpecificTerm///cool|cooled|climate|earth|dish|period|era	12:10		1
+waste	isImmediatelyFollowedBySubjectiveTerm	12		2
+wasted	isImmediatelyFollowedBySubjectiveTerm	12		2
 waste my time	!isImmediatelyPrecededByANegation	12:10		2
+wasted my time	!isImmediatelyPrecededByANegation	12:10		2
 waste of my time	!isImmediatelyPrecededByANegation	12:10		2
 waste our time	!isImmediatelyPrecededByANegation	12:10		2
 wasted time	!isImmediatelyPrecededByANegation	12:10		2
