@@ -19,7 +19,11 @@ accès
 actuel
 actuelle
 actuellement
+adressé
+adressée
+adressées
 affaire
+affirme
 afin
 ah
 ai
@@ -30,6 +34,7 @@ aident
 aie
 aille
 ainsi
+allant
 aller
 alle
 allée
@@ -73,6 +78,7 @@ aura
 aurait
 auront
 aussi
+autant
 autre
 autres
 aux
@@ -103,6 +109,7 @@ ca
 capable
 car
 cas
+causant
 cause
 causer
 ce
@@ -151,6 +158,8 @@ claire
 comme
 comment
 commune
+communiqué
+communiquée
 complet
 complète
 complets
@@ -160,6 +169,7 @@ comprends
 comprend
 comprendre
 compte
+concernant
 connait
 connaissance
 connais
@@ -188,6 +198,7 @@ de
 decembre
 décembre
 debout
+découvrez
 dedans
 dehors
 déjà
@@ -208,7 +219,11 @@ détail
 détails
 deux
 devant
+devenir
+devenez
 devez
+devient
+dévoile
 devons
 devrait
 difficulté
@@ -224,6 +239,7 @@ dois
 doit
 doivent
 doive
+domaine
 donc
 donner
 donne
@@ -251,6 +267,7 @@ elles-mêmes
 en
 encore
 enfin
+ensemble
 entre
 envers
 environ
@@ -259,6 +276,7 @@ envoyée
 envoyé
 envoi
 envois
+épisode
 es
 essai
 essaye
@@ -305,6 +323,7 @@ fevrier
 fi
 figure
 figurent
+finissant
 finit
 fini
 fois
@@ -337,6 +356,7 @@ hep
 hésitez
 hésite
 hésiter
+heure
 hi
 hier
 histoire
@@ -392,7 +412,9 @@ lesquels
 leur
 leurs
 libre
+liste
 longtemps
+lors
 lorsque
 lot
 lundi
@@ -410,6 +432,7 @@ malgré
 malheureusement
 manière
 mardi
+marqué
 mars
 masse
 me
@@ -498,6 +521,7 @@ parole
 partager
 particulièrement
 partie
+précédent
 presque
 réduire
 pas
@@ -530,11 +554,13 @@ plusieurs
 plutôt
 plutot
 point
+porter
 portant
 pose
 pour
 pourquoi
 pourtant
+pouvant
 pouvons
 pouvez
 première
@@ -557,6 +583,8 @@ prévue
 pris
 proche
 profitez
+propose
+proposé
 puis
 puisse
 puisque
@@ -587,14 +615,19 @@ quinze
 quoi
 quoique
 r
+rappelle
 rayon
 réaction
+réagir
 recherche
+reçoit
 relatif
 relative
 remercie
+rencontre
 rendu
 rend
+rendre
 répète
 répétée
 respect
@@ -607,7 +640,10 @@ rester
 restez
 reste
 retard
+retrouver
+retrouvez
 reve
+revivez
 revoici
 revoilà
 rien
@@ -631,6 +667,7 @@ septième
 sera
 serais
 serait
+série
 seront
 service
 servir
@@ -668,9 +705,11 @@ soyez
 spécial
 spéciale
 spécialement
+spécifique
 stop
 suis
 suivant
+suivez
 sujet
 sur
 surtout
@@ -699,6 +738,7 @@ tien
 tienne
 tiennes
 tiens
+tiers
 toc
 toi
 toi-même
@@ -712,6 +752,7 @@ tous
 tout
 toute
 toutes
+traiter
 tres
 très
 treize
@@ -727,6 +768,7 @@ u
 un
 une
 unes
+unique
 uns
 vaut
 vé
@@ -738,6 +780,7 @@ v
 va
 vais
 vas
+venez
 venir
 vérifier
 verra
@@ -771,6 +814,7 @@ vôtre
 vous
 vous-mêmes
 vous-memes
+voyant
 vraiment
 vu
 w

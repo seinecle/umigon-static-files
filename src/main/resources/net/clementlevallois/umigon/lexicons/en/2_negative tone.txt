@@ -109,6 +109,7 @@ broken	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B
 bruised	!isImmediatelyPrecededByANegation	12:10		2
 bs	!isImmediatelyPrecededByANegation	12:10	x	2
 bugger		12		2
+buggy		12		2
 bullshit	!isImmediatelyPrecededByANegation	12:10		3
 bummed	!isImmediatelyPrecededByANegation	12:10		2
 bummer		12		2
@@ -150,7 +151,7 @@ condemned	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if(A &&
 confused	!isImmediatelyPrecededByANegation	12:10		2
 confusing	isPrecededByStrongWord	12:10		2
 convincing	isImmediatelyPrecededByANegation	12:10		2
-cost	isImmediatelyPrecededByStrongWord	12:10		2
+cost	isImmediatelyPrecededByStrongWord+++isFollowedBySpecificTerm///a fortune	if (A || B) {12} else {10}		3
 coward	!isImmediatelyPrecededByANegation	12:10		3
 cowardly	!isImmediatelyPrecededByANegation	12:10		3
 crap	!isImmediatelyPrecededByANegation	12:10	x	3
@@ -427,6 +428,8 @@ hurts	!isImmediatelyPrecededByANegation	12:10		2
 hysteria	isPrecededBySpecificTerm///anti+++isPrecededByStrongWord	if(A || B) {12} else {10}		2
 i cant	isImmediatelyFollowedBySpecificTerm///believe+++isImmediatelyFollowedBySpecificTerm///wait	if(A) {10} else if (B) {11} else {12}		2
 i can't	isImmediatelyFollowedBySpecificTerm///believe+++isImmediatelyFollowedBySpecificTerm///wait	if(A) {10} else if (B) {11} else {12}		2
+i can’t	isImmediatelyFollowedBySpecificTerm///believe+++isImmediatelyFollowedBySpecificTerm///wait	if(A) {10} else if (B) {11} else {12}		2
+i can t	isImmediatelyFollowedBySpecificTerm///believe+++isImmediatelyFollowedBySpecificTerm///wait	if(A) {10} else if (B) {11} else {12}		2
 i didnt get		12		1
 i didn't get		12		1
 i dont wanna		12		1
@@ -609,6 +612,7 @@ oppressor		12	x	1
 oppressors		12	x	1
 ouch		12	x	1
 out	isPrecededBySpecificTerm///stressed|stresses	12:10	x	2
+out of luck	isImmediatelyPrecededBySubjectiveTerm	12:10		2
 out of tune	isPrecededByStrongWord	12:10		2
 outraged	!isImmediatelyPrecededByANegation+++isPrecededBySubjectiveTerm	if (A && B) {12} else {10}		3
 outragious	!isImmediatelyPrecededByANegation	12:10		3
