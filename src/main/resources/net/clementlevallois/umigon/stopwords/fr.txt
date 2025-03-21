@@ -15,6 +15,7 @@ août
 ﻿alors
 a
 abord
+abrite
 accès
 actuel
 actuelle
@@ -51,6 +52,7 @@ analyse
 annonce
 août
 aout
+appele
 apporter
 apres
 après
@@ -205,6 +207,8 @@ déjà
 deja
 delà
 demande
+demeurer
+demeure
 depuis
 dernier
 derrière
@@ -224,6 +228,7 @@ devenez
 devez
 devient
 dévoile
+devoile
 devons
 devrait
 difficulté
@@ -269,6 +274,7 @@ encore
 enfin
 ensemble
 entre
+entrée
 envers
 environ
 envoyer
@@ -281,6 +287,8 @@ es
 essai
 essaye
 essaie
+essentiel
+essentiels
 est
 et
 etait
@@ -362,6 +370,7 @@ hier
 histoire
 ho
 holà
+homme
 hors
 http
 https
@@ -373,6 +382,7 @@ i
 ici
 il
 ils
+immédiatement
 important
 importante
 importe
@@ -401,6 +411,7 @@ lance
 lès
 l
 la
+laissant
 laisser
 laquelle
 las
@@ -431,6 +442,10 @@ mal
 malgré
 malheureusement
 manière
+manquant
+manquer
+manquez
+manqué
 mardi
 marqué
 mars
@@ -498,14 +513,20 @@ o
 oblige
 obligez
 obligent
+obtenir
+obtient
 octobre
 offre
+offres
+offrant
 ohé
 oh
 on
 ont
 onze
 onzième
+ordre
+ordres
 ore
 ou
 oublie
@@ -516,6 +537,8 @@ ouverte
 p
 par
 parce
+parfois
+parle
 parmi
 parole
 partager
@@ -524,9 +547,15 @@ partie
 précédent
 presque
 réduire
+page
+pages
 pas
 passe
 passé
+passée
+passés
+passées
+passer
 peine
 pen
 pendant
@@ -559,6 +588,7 @@ portant
 pose
 pour
 pourquoi
+pourrait
 pourtant
 pouvant
 pouvons
@@ -567,6 +597,7 @@ première
 prend
 pre
 près
+présence
 presente
 première
 premièrement
@@ -585,6 +616,8 @@ proche
 profitez
 propose
 proposé
+proposent
+provoque
 puis
 puisse
 puisque
@@ -615,10 +648,12 @@ quinze
 quoi
 quoique
 r
+raconte
 rappelle
 rayon
 réaction
 réagir
+récemment
 recherche
 reçoit
 relatif
@@ -630,9 +665,12 @@ rend
 rendre
 répète
 répétée
+reprendre
+reprise
 respect
 respecte
 respecter
+responsable
 ressortir
 ressource
 ressources
@@ -699,6 +737,9 @@ son
 sont
 sortie
 souhaite
+souligne
+soulignant
+souligner
 sous
 soutien
 soyez
@@ -710,6 +751,7 @@ stop
 suis
 suivant
 suivez
+suivre
 sujet
 sur
 surtout
@@ -735,6 +777,7 @@ tenu
 tes
 tic
 tien
+tient
 tienne
 tiennes
 tiens

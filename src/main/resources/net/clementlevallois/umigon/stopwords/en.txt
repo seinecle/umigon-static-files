@@ -19,6 +19,7 @@ actual
 actually
 add
 added
+additional
 address
 adj
 admit
@@ -49,6 +50,7 @@ along
 alongside
 already
 also
+alternative
 although
 always
 am
@@ -190,6 +192,7 @@ come
 comes
 comment
 common
+complete
 computer
 con
 concern
@@ -274,6 +277,7 @@ else
 elsewhere
 embrace
 empty
+enable
 end
 ending
 enjoy
@@ -476,7 +480,8 @@ it's
 itd
 its
 itself
-itse”
+itse
+item
 j
 january
 join
@@ -1014,6 +1019,7 @@ tonight
 too
 took
 top
+topic
 total
 totally
 toward
@@ -1066,6 +1072,7 @@ v
 value
 variou
 various
+vary
 versu
 versus
 very
@@ -1152,6 +1159,7 @@ world
 worth
 would
 wouldn't
+worked
 wow
 write
 written
